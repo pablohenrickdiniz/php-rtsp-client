@@ -1,8 +1,8 @@
 <?php
     require "rtsp.php";
 
-    $url = "rtsp://10.10.9.110/media/video1";
-    $test = new rtsp_client("10.10.9.110", 554, "admin", "123456");
+    $url = "rtsp://192.168.1.10:554/channel1";
+    $test = new rtsp_client("192.168.1.10", 554, "admin", "123456");
 
     $test->connect();
 
